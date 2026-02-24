@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evertouch Point Of Sale | Durban’s Premium POS Provider</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --gray: #f4f4f4;
+            --mid-gray: #888888;
+        }
+
+        * { box-sizing: border-box; }
+        body { 
+            font-family: 'Montserrat', sans-serif; 
+            margin: 0; 
+            background-color: var(--white); 
+            color: var(--black); 
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--white);
+            border-bottom: 1px solid var(--gray);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            height: 50px; /* Aligned to your uploaded reference */
+            width: auto;
+        }
+        .header-contact {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 8%;
+            text-align: center;
+            background-color: var(--white);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-inline: auto;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--mid-gray);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        .hero-image-placeholder {
+            width: 100%;
+            max-width: 1000px;
+            height: 450px;
+            background: var(--gray);
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #eee;
+            color: #ccc;
+            font-weight: bold;
+        }
+        .btn {
+            background: var(--black);
+            color: var(--white);
+            padding: 20px 45px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .btn:hover {
+            background: #333;
+            transform: translateY(-2px);
+        }
+
+        /* About Us Section */
+        .about {
+            padding: 100px 8%;
+            background-color: var(--gray);
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .about-content {
+            max-width: 850px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: #333;
+            text-align: justify;
+            column-count: 1;
+        }
+
+        /* Product Showcase Grid */
+        .showcase {
+            padding: 100px 8%;
+            text-align: center;
+        }
+        .showcase h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 60px;
+        }
+        .grid-5 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+        .grid-item {
+            padding: 20px;
+            background: var(--white);
+            border: 1px solid #eee;
+            transition: 0.3s;
+        }
+        .grid-item:hover {
+            border-color: var(--black);
+        }
+        .item-box {
+            height: 150px;
+            background: #fafafa;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 0.8rem;
+        }
+        .grid-item h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 8%;
+            background: var(--black);
+            color: var(--white);
+            text-align: center;
+        }
+        .footer-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .footer-address {
+            font-weight: 300;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+        .copyright {
+            margin-top: 50px;
+            font-size: 0.7rem;
+            opacity: 0.5;
+            text-transform: uppercase;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .grid-5 { grid-template-columns: repeat(2, 1fr); }
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Evertouch Logo" class="logo">
+    <div class="header-contact">081 587 4465</div>
+</header>
+
+<section class="hero">
+    <h1>R8,999.99 Promotion: Complete New POSIFLEX System + Software</h1>
+    <p>The ultimate Durban business deal. Includes industrial Posiflex terminal, cash drawer, scanner, and printer. No monthly fees.</p>
+    <a href="https://wa.me/27815874465" class="btn">Request a Free Demo Today</a>
+    <div class="hero-image-placeholder">
+        [ PRODUCT BUNDLE IMAGE PLACEHOLDER ]
+    </div>
+</section>
+
+<section class="about">
+    <h2>Serving Durban Since 2013</h2>
+    <div class="about-content">
+        <p>Based in the heart of the city at Salisbury Center, Durban Central (Upstairs), Evertouch POS has been the go-to partner for local businesses for over a decade. We specialize in industrial-grade Posiflex hardware and reliable, easy-to-use software designed for the South African market.</p>
+        <p>Our mission is simple: providing high-performance, load-shedding-ready point-of-sale systems without the burden of monthly fees. With our lifetime license model, your R8,999 investment is a one-time cost for a complete business solution. Whether you run a retail store or a busy takeaway, Evertouch POS ensures your business stays open, your data stays safe, and your customers stay happy.</p>
+    </div>
+</section>
+
+<section class="showcase">
+    <h2>Our Hardware Solutions</h2>
+    <div class="grid-5">
+        <div class="grid-item">
+            <div class="item-box">IMAGE</div>
+            <h3>Posiflex Terminals</h3>
+        </div>
+        <div class="grid-item">
+            <div class="item-box">IMAGE</div>
+            <h3>Cash Drawers</h3>
+        </div>
+        <div class="grid-item">
+            <div class="item-box">IMAGE</div>
+            <h3>Handheld Scanners</h3>
+        </div>
+        <div class="grid-item">
+            <div class="item-box">IMAGE</div>
+            <h3>Thermal Printers</h3>
+        </div>
+        <div class="grid-item">
+            <div class="item-box">IMAGE</div>
+            <h3>Label Printers</h3>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <span class="footer-number">081 587 4465</span>
+    <p class="footer-address">Salisbury Center, Durban Central, Upstairs</p>
+    <div class="copyright">© 2013-2026 Evertouch Point Of Sale. Durban, KZN.</div>
+</footer>
+
+</body>
+</html>
